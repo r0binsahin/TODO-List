@@ -1,0 +1,11 @@
+@use "variables" as v;
+
+@mixin buttons {
+    height: 100%;
+    background: v.$pinky;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
